@@ -27,7 +27,7 @@ export const socials = [
 export default function Footer() {
   return (
     <footer className="px-8 py-12 md:py-[104px] md:px-40 flex flex-col items-center md:items-start gap-y-8 md:gap-y-6 bg-black text-white w-full">
-      <div className="flex flex-col md:flex-row gap-y-8 flex-wrap md:justify-between items-center md:items-start">
+      <div className="flex flex-col gap-y-8 items-center flex-wrap md:flex-row md:justify-between md:items-start w-full">
         <div className="flex flex-col items-center md:items-start gap-y-4 md:gap-y-6">
           <Logo color="white" />
           <p className="md:w-96 font-regular text-sm text-center md:text-left text-[#cfcfcf] leading-[170.5%]">
